@@ -7,7 +7,7 @@ const Main_two = () => {
     return (
         <div className='relative bg-white-500 flex-col align-items-center items-center h-auto p-8'>
             <div className='flex flex-col items-center m-16 text-center'>
-                <h2 className='text-4xl p-4 '>Together We’re Creating a better world - for Everyone</h2>
+                <h2 className='text-4xl p-4 '>Issues We're are Addressing</h2>
                 <p className='text-2xl text-gray-500 py-6 leading-loose px-12'>We’re tackling the biggest issues and striving for the maximum impact to
                     ensure a clean environment, healthy community, and the ability of people
                     and nature to thrive.

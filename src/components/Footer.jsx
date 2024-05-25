@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-lime-500 h-auto p-8'>
             <div className="flex items-center justify-between mx-24">
                 <div>
-                    Logo
+                <div className='text-green-700 text-2xl font-bold ml-16'>Green Tech</div>
                 </div>
                 <div className='flex-col items-center justify-between'>
                     <p className='text-white text-2xl'>About Green Tech</p>

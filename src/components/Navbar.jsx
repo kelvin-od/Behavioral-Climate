@@ -39,7 +39,7 @@ const Navbar = () => {
                         <li className='text-base hover:cursor-pointer hover:bg-green-100 px-3 py-2 rounded-lg'><a href=""></a>News & Events</li>
                     </ul>
 
-                    <button className='hidden md:flex text-base border-1 bg-green-700 py-2 px-3 text-white hover:bg-green-100 rounded-lg mr-16'>
+                    <button className='hidden md:flex text-base border-1 bg-lime-500 py-2 px-3 text-white hover:bg-green-100 rounded-lg mr-16'>
                         Become a Member
                     </button>
                 </div>

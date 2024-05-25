@@ -15,35 +15,17 @@ const Hero = () => {
                         We’re Using Tech for Behavioral Change to Impact
                     </h1>
 
-                    <ReactTyped className="text-5xl font-bold leading-normal px-2 text-white" strings={["Climate Change...","Environment Change...","Human Impact..."]} typeSpeed={90} backSpeed={100} loop />
+                    <ReactTyped className="text-5xl font-bold leading-normal px-2 text-white" strings={
+                        ["Climate Change...", "Environment Change...", "Human Impact..."]} typeSpeed={90} backSpeed={100} loop />
                     <br />
 
-                    {/* <ReactTyped className="text-5xl font-semi-bold leading-normal px-2 text-white"
-                        strings={[
-                            "Climate Change",
-                            "Environment Change",
-                            "Human",
-                        ]}
-                        typeSpeed={40}
-                        backSpeed={50}
-                        attr="placeholder"
-                        loop
-                    >
-                        <input type="text" />
-                    </ReactTyped> */}
-
-
-                    {/* <ReactTyped strings={["Climate Change", "Environment Change", "Human Impact"]} 
-                    typeSpeed={120} 
-                    backSpeed={140} 
-                    attr="placeholder" 
-                    loop /> */}
-                    <button className="bg-green-700 py-3 px-6 text-white font-base rounded-lg my-5 mx-2">
+                    <button className="bg-lime-500 hover:bg-lime-300 py-3 px-6 text-xl text-white hover:text-lime-500 font-base rounded-lg my-5 mx-2">
                         Learn how
                     </button>
+
                 </div>
 
-                <div className="flex flex-row justify-center w-auto justify-between space-x-4 ml-24 mr-24 my-12 p-5 gap-5 rounded-lg bg-green-800 bg-opacity-50">
+                <div className="flex flex-row justify-center w-auto justify-between space-x-4 ml-24 mr-24 my-12 p-5 gap-5 rounded-lg bg-lime-500 bg-opacity-30">
                     <div>
                         <h2 className="text-4xl text-white mb-3 font-bold">60%</h2>
                         <h3 className="text-xl text-white">Climate Change</h3>

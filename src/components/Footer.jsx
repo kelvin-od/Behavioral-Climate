@@ -5,12 +5,12 @@ const Footer = () => {
         <div className='bg-lime-500 h-auto p-8'>
             <div className="flex items-center justify-between mx-24">
                 <div>
-                <div className='text-green-700 text-2xl font-bold ml-16'>Green Tech</div>
+                    <div className='text-white text-4xl font-bold'>Green Tech</div>
                 </div>
                 <div className='flex-col items-center justify-between'>
                     <p className='text-white text-2xl'>About Green Tech</p>
                     <div className='flex flex-col text-xl py-4 pl-2 leading-loose'>
-                        <a className='text-gray-300 hover:text-gray-100'  href="">Committed to change</a>
+                        <a className='text-gray-300 hover:text-gray-100' href="">Committed to change</a>
                         <a className='text-gray-300 hover:text-gray-100' href="">Committed to Diversity</a>
                         <a className='text-gray-300 hover:text-gray-100' href="">Careers</a>
                     </div>

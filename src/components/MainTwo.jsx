@@ -3,7 +3,7 @@ import environment from "../Assets/images/environmental.jpg"
 import education from "../Assets/images/education.png"
 import childhealth from "../Assets/images/health.png"
 
-const Main_two = () => {
+const MainTwo = () => {
     return (
         <div className='relative bg-white-500 flex-col align-items-center items-center h-auto p-8'>
             <div className='flex flex-col items-center m-16 text-center'>
@@ -34,4 +34,4 @@ const Main_two = () => {
     )
 }
 
-export default Main_two
+export default MainTwo

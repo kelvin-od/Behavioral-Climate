@@ -7,7 +7,6 @@ const Becomemember = () => {
     <>
       <div>
         <h2 className='flex flex-col items-center justify-center mt-10 mb-5'>Fill the Form and Submit to Become a Member</h2>
-        <fieldset className=''>
           <form action="" className='flex flex-col items-center justify-center'>
             <div className='flex flex-col items-center justify-center'>
               <label htmlFor="">First Name</label>
@@ -25,7 +24,6 @@ const Becomemember = () => {
             </div>
             <button type="submit">Submit</button>
           </form>
-        </fieldset>
       </div>
       
       <Footer />

@@ -34,4 +34,4 @@ const MainTwo = () => {
     )
 }
 
-export default MainTwo
+export default MainTwo;

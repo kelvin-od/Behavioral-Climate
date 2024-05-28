@@ -38,4 +38,4 @@ const MainThree = () => {
     )
 }
 
-export default MainThree
+export default MainThree;

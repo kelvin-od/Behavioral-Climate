@@ -29,7 +29,7 @@ const Footer = () => {
                     <p className='text-white text-2xl'>Become the change</p>
                     <div className='flex flex-col text-xl py-4 text-gray-300 pl-2 leading-loose'>
                         <a className='text-gray-300 hover:text-gray-100' href="">Support</a>
-                        <a className='text-gray-300 hover:text-gray-100' href="">Contact</a>
+                        <a className='text-gray-300 hover:text-gray-100' href="/components/contact">Contact</a>
                     </div>
                 </div>
 

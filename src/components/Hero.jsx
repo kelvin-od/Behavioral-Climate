@@ -25,7 +25,7 @@ const Hero = () => {
 
                 </div>
 
-                <div className="flex flex-row justify-center w-auto justify-between space-x-4 ml-24 mr-24 my-12 p-5 gap-5 rounded-lg bg-lime-500 bg-opacity-30">
+                <div className="flex flex-row w-auto justify-between space-x-4 ml-24 mr-24 my-12 p-5 gap-5 rounded-lg bg-lime-500 bg-opacity-30">
                     <div>
                         <h2 className="text-4xl text-white mb-3 font-bold">60%</h2>
                         <h3 className="text-xl text-white">Climate Change</h3>

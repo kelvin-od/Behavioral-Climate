@@ -1,12 +1,14 @@
 
 import './App.css';
-import Bottomfooter from './components/Bottomfooter';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Main from './components/Main';
-import Main_one from './components/Main_one';
-import Main_two from './components/Main_two';
+import { Routes, Route} from 'react-router-dom';
+import Becomemember from './pages/Becomemember';
 import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import OurWork from './pages/OurWork';
+import OurImpact from './pages/OurImpact';
+import NewsAndEvents from './pages/NewsAndEvents';
+import ContactUs from './pages/ContactUs';
+import NoPage from './pages/NoPage';
 
 
 
@@ -14,12 +16,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <Main />
-      <Main_one />
-      <Main_two />
-      <Footer />
-      <Bottomfooter />
+        <Routes>
+            <Route index element={<Home />} />
+            <Route path='/becomemember' element={<Becomemember />} />
+            <Route path='/ourwork' element={<OurWork />} />
+            <Route path='/ourimpact' element={<OurImpact />} />
+            <Route path='/newsandevents' element={<NewsAndEvents />} />
+            <Route path='/contactus' element={<ContactUs />} />
+            <Route path='*' element = {<NoPage />} />
+        </Routes>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Main_one = () => {
+function Main_one() {
     return (
         <div className='relative bg-gray-200 flex-col align-items-center items-center h-auto p-8'>
             <div className='flex flex-col items-center m-16 text-center'>

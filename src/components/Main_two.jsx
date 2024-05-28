@@ -1,7 +1,7 @@
 import React from 'react'
 import environment from "../Assets/images/environmental.jpg"
-import education from "../Assets/images/educa.jpg"
-import childhealth from "../Assets/images/childhealth.jpg"
+import education from "../Assets/images/education.png"
+import childhealth from "../Assets/images/health.png"
 
 const Main_two = () => {
     return (
@@ -25,7 +25,7 @@ const Main_two = () => {
                 </div>
 
                 <div>
-                    <img className='rounded-lg' src={childhealth} alt="" />
+                    <img className='rounded-lg' src={education} alt="" />
                     <p className='text-xl text-center py-4'>Education</p>
                 </div>
             </div>

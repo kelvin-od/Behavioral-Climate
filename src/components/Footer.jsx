@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -28,8 +29,8 @@ const Footer = () => {
                 <div className='flex-col items-center justify-between'>
                     <p className='text-white text-2xl'>Become the change</p>
                     <div className='flex flex-col text-xl py-4 text-gray-300 pl-2 leading-loose'>
-                        <a className='text-gray-300 hover:text-gray-100' href="">Support</a>
-                        <a className='text-gray-300 hover:text-gray-100' href="/components/contact">Contact</a>
+                        <Link className='text-gray-300 hover:text-gray-100' to="">Support</Link>
+                        <Link className='text-gray-300 hover:text-gray-100' to="/contactus">Contact</Link>
                     </div>
                 </div>
 

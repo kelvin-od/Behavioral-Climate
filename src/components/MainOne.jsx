@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Main_one() {
+function MainOne() {
     return (
         <div className='relative bg-gray-200 flex-col align-items-center items-center h-auto p-8'>
             <div className='flex flex-col items-center m-16 text-center'>
@@ -36,4 +36,4 @@ function Main_one() {
     )
 }
 
-export default Main_one
+export default MainOne

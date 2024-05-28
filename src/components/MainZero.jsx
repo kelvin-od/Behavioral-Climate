@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Main_zero() {
+function MainZero() {
     return (
         <div className='relative bg-white-500 flex flex-col justify-center items-center h-auto p-12'>
             <div className='flex items-center mx-6'>
@@ -24,4 +24,4 @@ function Main_zero() {
     );
 }
 
-export default Main_zero;
+export default MainZero;

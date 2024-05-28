@@ -2,7 +2,7 @@ import React from 'react'
 import playstore from "../Assets/images/play_store.png"
 import phones from "../Assets/images/phone.png"
 
-const Main_three = () => {
+const MainThree = () => {
     return (
         <div className='relative bg-gray-100 flex flex-col justify-center items-center h-auto p-12 '>
             <div className='flex items-center mx-24'>
@@ -38,4 +38,4 @@ const Main_three = () => {
     )
 }
 
-export default Main_three
+export default MainThree;

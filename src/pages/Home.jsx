@@ -1,25 +1,24 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import Main from '../components/Main';
-import Main_one from '../components/Main_one';
-import Main_two from '../components/Main_two';
 import Footer from '../components/Footer';
 import Bottomfooter from '../components/Bottomfooter';
-import Main_zero from '../components/Main_zero';
-import Main_three from '../components/Main_three'
+import MainOne from '../components/MainOne';
+import MainTwo from '../components/MainTwo';
+import MainZero from '../components/MainZero';
+import MainThree from '../components/MainThree';
 
 const Home = () => {
   return (
     <>
       <Hero />
       <Main />
-      <Main_zero />
-      <Main_one />
-      <Main_two />
-      <Main_three />
+      <MainZero />
+      <MainOne />
+      <MainTwo />
+      <MainThree />
       <Footer />
       <Bottomfooter />
-
     </>
   )
 }

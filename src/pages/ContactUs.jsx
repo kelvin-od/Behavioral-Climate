@@ -18,8 +18,7 @@ const ContactUs = () => {
                 Contact Us
               </h1>
               <p className='pt-2 text-emerald-100 text-sm'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Ut, quae perspiciatis cumque at esse accusantium.
+                We are interested to hear your take on environmental sustainability appraoches.
               </p>
             </div>
             <div className='flex flex-col space-y-6 text-teal-100'>

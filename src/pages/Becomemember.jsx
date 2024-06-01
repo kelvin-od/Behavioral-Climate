@@ -10,7 +10,7 @@ const Becomemember = () => {
                         shadow-lg text-white flex flex-col space-y-7
                         md:flex-row md:space-x-6 md:spacey-0 sm:p-12'>
           <div className='md:flex items-center'>
-            <h1 className='font-bold text-4xl tracking-wide'>Fill the Form and Submit to Become a Member</h1>
+            <h1 className='font-bold text-4xl tracking-wide'>Fill the Form to Become a Member</h1>
           </div>
           <div>
             <div className='bg-white rounded-xl shadow-lg p-8 text-emerald-900 md:w-200'>
